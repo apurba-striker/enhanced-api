@@ -3,7 +3,7 @@
 ## Installation
 
 - create .env
-- copy `.env.example` inside `.env`
+- copy `env` inside `.env`
 - setup postgresql and update `DATABASE_URL` inside `.env`
 - install dependencies `npm i`
 - create database and tables `npx prisma db push`
