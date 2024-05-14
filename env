@@ -1,0 +1,10 @@
+PORT=4000
+ORIGIN=["http://localhost:3000"]
+JWT_SECRET=itssecret
+NODE_ENV=development
+DATABASE_URL=postgres://apurba:123456@localhost/hydrogen
+DIRECT_URL=postgres://apurba:123456@localhost/hydrogen
+CLOUDINARY_CLOUD_NAME=itssecret
+CLOUDINARY_API_KEY=itssecret
+CLOUDINARY_API_SECRET=itssecret
+CLOUDINARY_SECURE=true
