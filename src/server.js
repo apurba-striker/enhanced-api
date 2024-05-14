@@ -7,6 +7,7 @@ const { registerRoutes } = require("./routes");
 const { ORIGIN, NODE_ENV, PORT } = require("./config/env.config");
 const { createSocketIOInstance } = require("./socket");
 
+
 const {
   globalErrorHandler,
   notFoundErrorHandler,
@@ -36,6 +37,13 @@ app.use(
     
   })
 );
+app.get("/", (req,res) => {
+  res.send("Welcome to Home page");
+})
+
+app.get("/dashboard", (req,res) => {
+  res.send("Welcome to dash board");
+})
 
 app.use(cookieParser()); // parse incomming cookies in request
 
